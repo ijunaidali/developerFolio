@@ -21,9 +21,9 @@ const illustration = {
 
 const greeting = {
   username: "Junaid Ali",
-  title: "Hello!, I'm Junaid Ali",
+  title: "Hello, I'm Junaid Ali",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "Ten years of experience have prepared me for all project stages and sizes. Whether it's conceptualizing a fresh project, rescuing a troubled one, or scaling to serve millions, my past decade in the field has equipped me for your challenge."
   ),
   resumeLink:
     "", // Set to empty to hide the button
@@ -40,6 +40,7 @@ const socialMediaLinks = {
   facebook: "",
   medium: "",
   stackoverflow: "",
+  whatsapp: "",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,14 +50,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "Passionate Full-Stack Developer Exploring Every Tech Frontier",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Building Scalable & High-Performance Web Apps – Crafting seamless full-stack applications with cutting-edge technologies."
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Progressive Web Apps (PWAs) & SPA Development – Creating lightning-fast, user-friendly experiences."),
     emoji(
-      "⚡ Integration of third party services such as Stripe / Open AI"
+      "⚡ Seamless Third-Party Integrations – Implementing Stripe, OpenAI, and more to enhance functionality."
     )
   ],
 
@@ -73,7 +74,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
+      skillName: "Sass",
       fontAwesomeClassname: "fab fa-sass"
     },
     {
@@ -81,41 +82,49 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "vuejs",
-      fontAwesomeClassname: "fab fa-vue"
+      skillName: "VueJs",
+      fontAwesomeClassname: "fab fa-vuejs"
     },
     {
-      skillName: "nodejs",
+      skillName: "Angular",
+      fontAwesomeClassname: "fab fa-angular"
+    },
+    {
+      skillName: "NodeJs",
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "npm",
+      skillName: "NPM",
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "sql-database",
+      skillName: "MYSQL",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
+      skillName: "AWS",
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
+      skillName: "Firebase",
       fontAwesomeClassname: "fas fa-fire"
     },
     {
-      skillName: "php",
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
+      skillName: "PHP",
       fontAwesomeClassname: "fab fa-php"
     },
     {
-      skillName: "laravel",
+      skillName: "Laravel",
       fontAwesomeClassname: "fab fa-laravel"
     },
     {
-      skillName: "docker",
+      skillName: "Docker",
       fontAwesomeClassname: "fab fa-docker"
-    }
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -126,14 +135,21 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
+      schoolName: "SZABIST Islamabad",
+      logo: require("./assets/images/szabist.png"),
+      subHeader: "Master's degree, Project Management",
+      duration: "2011 - 2012",
+      desc: "",
+      descBullets: [
+      ]
+    },
+    {
       schoolName: "UET Taxila",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Bachelor of Engineering in Information Technology",
+      logo: require("./assets/images/uet.png"),
+      subHeader: "Bachelor of Engineering, Information Technology",
       duration: "2004 - 2008",
       desc: "",
       descBullets: [
-        "",
-        ""
       ]
     },
 
@@ -147,15 +163,15 @@ const techStack = {
   experience: [
     {
       Stack: "Fullstack", //Insert stack or technology you have experience in
-      progressPercentage: "80%" //Insert relative proficiency in percentage
+      progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "90%"
+      progressPercentage: "95%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "70%"
+      progressPercentage: "85%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -352,7 +368,7 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+923115359829",
+  number: "+92 311 5359829",
   email_address: "junaidali@email.com"
 };
 
