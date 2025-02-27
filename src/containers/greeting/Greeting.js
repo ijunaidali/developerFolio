@@ -4,7 +4,7 @@ import emoji from "react-easy-emoji";
 import "./Greeting.scss";
 import landingPerson from "../../assets/lottie/landingPerson";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
-import SocialMedia from "../../components/socialMedia/SocialMedia";
+//import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 import { illustration, greeting } from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
@@ -43,6 +43,7 @@ export default function Greeting() {
                 <a
                   href={'https://calendly.com/beparamount-gi91/30min'}
                   target="_blank"
+                  rel="noreferrer"
                   className="download-link-button"
                 >
                   <Button text="Book a free consultation" />
