@@ -23,7 +23,7 @@ const greeting = {
   username: "Junaid Ali",
   title: "Hello, I'm Junaid Ali",
   subTitle: emoji(
-    "Ten years of experience have prepared me for all project stages and sizes. Whether it's conceptualizing a fresh project, rescuing a troubled one, or scaling to serve millions, my past decade in the field has equipped me for your challenge."
+    'I help businesses turn ideas into scalable, high-performance web applications using modern web technologies with a focus on AI-driven automation and seamless user experiences.'
   ),
   resumeLink:
     "", // Set to empty to hide the button
@@ -40,7 +40,7 @@ const socialMediaLinks = {
   facebook: "",
   medium: "",
   stackoverflow: "",
-  whatsapp: "",
+  wa: "https://wa.me/923115359829",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -65,22 +65,8 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "Sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
+
+
     {
       skillName: "VueJs",
       fontAwesomeClassname: "fab fa-vuejs"
@@ -93,24 +79,13 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "NodeJs",
       fontAwesomeClassname: "fab fa-node"
     },
-    {
-      skillName: "NPM",
-      fontAwesomeClassname: "fab fa-npm"
-    },
+
     {
       skillName: "MYSQL",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "AWS",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "Firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "Java",
+      skillName: "J2EE",
       fontAwesomeClassname: "fab fa-java"
     },
     {
